@@ -1,4 +1,6 @@
-![WS](https://img4.apk.tools/150/4/6/d/info.laptrinhpic.easycontrol.websockets.png){:height="50%" width="50%"}
+<p align="left">
+  <img src="your_relative_path_here_number_2_large_name" max-width="50%" max-height="50%"alt="WS">
+</p>
 
 # Instructions
 
