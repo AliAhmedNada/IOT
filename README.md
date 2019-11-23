@@ -1,6 +1,5 @@
 <p align="left">
   <img src="https://img4.apk.tools/150/4/6/d/info.laptrinhpic.easycontrol.websockets.png" max-width="25%" max-height="25%"alt="WS">
->>>>>>> d2f4768b6abfa39c12ed5aa256b53b6fcb204fe7
 </p>
 
 # Instructions
