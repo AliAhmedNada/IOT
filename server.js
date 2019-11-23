@@ -5,14 +5,14 @@
 
  const RpMessages = require('./Messages.enum')
 try {
-    
+
     const net = require('net');
     const dotenv = require('dotenv');
     dotenv.config();
     // Function that define controls 
     var command = {
         check: commandsent => {
-            return commandsent === ('S') ? RpMessages.control_1 :
+            return commandsent === ('S')||('Send stable weight value') ? RpMessages.control_1 :
                 commandsent === 'S I' ? RpMessages.control_2 :
                 commandsent === 'S +' ? RpMessages.control_3 :
                 commandsent === 'S -' ? RpMessages.control_4 :
