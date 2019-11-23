@@ -15,4 +15,5 @@ the Idea of the solution is work on the device(Instrument) as a server and the r
 * npm run client ( On a terminal 2 )
 * start sending messages from terminal 2 and you should see it in terminal 1 , once message is sent a message would be sent to terminal 2 confirming that the message have been recieved. 
 
-### Ali Nada 
+please contact me through email incase of any comments : aliahmedalihassan@gmail.com
+#### Ali Nada 
