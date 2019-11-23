@@ -1,0 +1,23 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "Assigment for labfoward",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "server": "node server.js",
+    "client": "node ./models/client.js"
+  },
+  "keywords": [
+    "iot"
+  ],
+  "author": "Ali Nada",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "net": "^1.0.2",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {}
+}
