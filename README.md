@@ -1,3 +1,5 @@
+![WS](https://img4.apk.tools/150/4/6/d/info.laptrinhpic.easycontrol.websockets.png)
+
 # Instructions
 
 this is a lab assisgment presented to labforward team , the objective to establish a communication bet 2 devices Rasperberry Pi in that case to transfer data bet them.
