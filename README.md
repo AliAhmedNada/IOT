@@ -1,4 +1,4 @@
-![WS](https://img4.apk.tools/150/4/6/d/info.laptrinhpic.easycontrol.websockets.png)
+![WS](https://img4.apk.tools/150/4/6/d/info.laptrinhpic.easycontrol.websockets.png){:height="50%" width="50%"}
 
 # Instructions
 
