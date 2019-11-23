@@ -1,4 +1,3 @@
-![WS](https://img4.apk.tools/150/4/6/d/info.laptrinhpic.easycontrol.websockets.png){:height="50%" width="50%"}
 
 <p align="left">
   <img src="https://img4.apk.tools/150/4/6/d/info.laptrinhpic.easycontrol.websockets.png" max-width="50%" max-height="50%"alt="WS">
