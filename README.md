@@ -4,10 +4,10 @@
 
 # Instructions
 
-this is a lab assisgment presented to labforward team , the objective to establish a communication bet 2 devices Rasperberry Pi in that case to transfer data bet them.
+this is a lab assisgment presented to labforward team , the objective to establish a communication bet 2 devices to transfer data bet them.
 
 ## Brief 
-the Idea of the solution is work on the device(Instrument) as a server and the receiver machine as a client , using websockets as a realtime communication protocol which would be extremely fast , the steps to run the 2 nodejs apps as follows :
+the Idea of the solution is work on the device (Instrument) as a server and  driver ( machine ) as a client , using websockets as a realtime communication protocol which would be extremely fast , the steps to run the 2 nodejs apps as follows :
 
 The port Configured is 9899, to change it please edit in the .env file 
 
