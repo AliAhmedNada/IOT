@@ -16,7 +16,7 @@ try {
         });
     });
     client.on('data', (data) => {
-        setTimeout(noop = () => {}, 900);
+        setTimeout(noop = () => {}, 1000);
         console.log(data.toString());
     });
 
