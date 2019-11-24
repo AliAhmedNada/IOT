@@ -20,11 +20,11 @@ The port Configured is 9899, to change it please edit in the .env file
 
 
 ### Allowed commands in driver 
-S + 
-S -
-S 
-S I
-Send stable weight value'
+* S + 
+* S -
+* S 
+* S I
+* Send stable weight value'
 
 
 sample
