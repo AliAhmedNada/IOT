@@ -12,19 +12,18 @@ try {
     // Function that define controls 
     var command = {
         check: commandsent => {
-            return commandsent === ('S')||('Send stable weight value') ? RpMessages.control_1 :
+            return commandsent === (('S')||('Send stable weight value')) ? RpMessages.control_1 :
                 commandsent === 'S I' ? RpMessages.control_2 :
                 commandsent === 'S +' ? RpMessages.control_3 :
                 commandsent === 'S -' ? RpMessages.control_4 :
                 null;
         }
     };
-
+    
     // Create a server object
     const server = net.createServer(socket => {
-        socket.write('Server online');
+        //socket.write('Server online');
         socket.on('data', data => {
-            socket.write('Server Confirm : Message Recieved');
 
             let array = []
 
@@ -36,19 +35,20 @@ try {
             {
                 check != null ? [
                         console.log("command recognized"),
-                        socket.write(check)
+                        socket.write("Command Sent :"+check)
                     ] :
                     ''
             }
             console.log('Received is [' + array + '] is ' + '"' + data.toString().replace(/(\r\n|\n|\r)/gm, "\\n") + '"')
             console.log("listening..")
+            socket.write('Sent: '+'"'+data.toString().replace(/(\r\n|\n|\r)/gm, "\\n")+'"' );
         });
     }).on('error', (err) => {
         console.error(err);
     });
     server.listen(process.env.PORT, () => {
-        console.log('server on', server.address().port);
-    });
+        console.log("Device Online")
+        console.log("listening..")    });
     ''
 } catch (error) {
     console.error(error);
