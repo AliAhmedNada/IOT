@@ -17,6 +17,16 @@ The port Configured is 9899, to change it please edit in the .env file
 * npm run client ( On a terminal 2 )
 * start sending messages from terminal 2 and you should see it in terminal 1 , once message is sent a message would be sent to terminal 2 confirming that the message have been recieved. 
 
+
+
+###Allowed commands in driver 
+S + 
+S -
+S 
+S I
+Send stable weight value'
+
+
 sample
 
 ![Screenshot](serverimage.png)
